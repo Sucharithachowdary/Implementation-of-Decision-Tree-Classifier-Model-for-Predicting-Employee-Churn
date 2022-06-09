@@ -8,9 +8,10 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-#step:
+```
+#step1:
 Import pandas module and import the required data set.
-#step:
+#step2:
 Find the null values and count them.
 #step3:
 Count number of left values.
@@ -29,9 +30,8 @@ From sklearn import metrics.
 #step10:
 Find the accuracy of our model and predict the require values
 
-
-## Program:
 ```
+## Program:
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by:k.sucharitha 
@@ -60,7 +60,7 @@ accuracy=metrics.accuracy_score(y_test,y_pred)
 accuracy
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 */
-```
+
 
 ## Output:
 ![5 1](https://user-images.githubusercontent.com/94166007/172895842-41dd97dd-b985-4a29-a155-6d5f8cea4005.jpeg)
